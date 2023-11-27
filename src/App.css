@@ -1,0 +1,75 @@
+#first {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+#cards {
+  display: flex;
+  justify-content: space-around;
+
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+#cardbody {
+  background-color: rgb(33, 37, 41);
+}
+
+.cardtext {
+  font-size: 15px;
+  color: white;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+#bt {
+  display: flex;
+  justify-content: space-between;
+}
+#form {
+  width: 500px;
+}
+
+#icons {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  font-size: 40px;
+  align-items: center;
+
+}
+#cardtitle {
+  color: red;
+  text-align: center;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Hel";
+  font-size: 30px;
+}
+#location {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+}
+#cont {
+  font-family: "Times New Roman", Times, serif;
+}
+#form {
+  font-family: "Times New Roman", Times, serif;
+}
+#card {
+  border: solid 1px rgb(61, 64, 36);
+}
+h2 {
+  text-decoration: underline;
+}
+
+#i {
+  color: red;
+  cursor: pointer;
+
+}
+#i:hover {
+  color: blue;
+}
